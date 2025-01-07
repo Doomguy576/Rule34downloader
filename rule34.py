@@ -50,4 +50,4 @@ def download_posts(tags, limit=100, page=0, output_dir="downloads"):
         print(f"Ошибка API: {response.status_code}, {response.text}")
 
 # Пример вызова функции
-download_posts(tags="miside", limit=1000, output_dir="C:/Games/modding/mita")
+download_posts(tags="yourtag", limit=1000, output_dir="C:/yourpath")
